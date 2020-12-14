@@ -1,0 +1,15 @@
+nav {
+    background-color: aqua ;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+nav>img {
+    display: flex;
+    align-self: flex-start;
+}
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
